@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8"/>
+    <title>xCloner</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+    <!-- GLOBAL STYLES -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+</head>
+<body>
+<p>1</p>
+
+<p>2</p>
+
+<p>3</p>
+
+<div class="container">
+    <form method="POST" action="http://localhost:8000/cloner" accept-charset="UTF-8"><input name="_token" type="hidden" value="WvZ3dtjnxIVM8VD5EXSFX0BiDzbI0r6BKjRUzs5H">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="input-group xcloner" id="my_cloner">
+                <div class="input-group-btn">
+                    <button aria-expanded="false" aria-haspopup="true" data-toggle="dropdown"
+                            class="btn btn-default dropdown-toggle" type="button">
+                        <span class="selected-choice"></span>
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a data-value="1" href="#">Weight</a></li>
+                        <li><a data-value="2" href="#">Height</a></li>
+                        <li><a data-value="3" href="#">Color</a></li>
+                        <li><a data-value="4" href="#">Dimention</a></li>
+                    </ul>
+                </div>
+                <input type="text" class="form-control text-center main-input" value="" name="field_"/>
+                <span class="input-group-btn remove-field hidden">
+                    <button type="button" class="btn btn-danger"> -</button>
+                </span>
+                <span class="input-group-btn add-field">
+                    <button type="button" class="btn btn-success"> +</button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <input class="btn btn-primary" type="submit" value="Send">
+        </div>
+    </div>
+    </form>
+</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/xcloner.js"></script>
+<script language="javascript">
+    $(document).ready(function () {
+        $('.xcloner').xcloner();
+		$('.xcloner').xcloner().add({1:'100', 2:"220", 4:'обув'});
+		console.log($('.xcloner').xcloner().val());
+		$('.xcloner').xcloner().reset();
+    });
+</script>
+</body>
+</html>

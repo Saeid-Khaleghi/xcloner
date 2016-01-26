@@ -6,7 +6,7 @@
 		var settings = $.extend({
 			// These are the defaults.
 			margin: "5px 0",
-			chooseText:"انتخاب کنید",
+			chooseText:"Choose",
 			inputs:{},
 			del_exist_inputs:false,
 		}, options );

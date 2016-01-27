@@ -14,3 +14,8 @@ https://github.com/saeid-khaleghi/xcloner/releases/
 ### xCloner Credits
 
 - Concept and development, Design and Repository maintained by [Saeid Khaleghi] for [ParsTarnavard](http://parstarnavard.ir/).
+
+### View
+
+![GitHub Logo](/img/xcloner.jpg)
+Format: ![xCloner](url)

@@ -17,4 +17,4 @@ https://github.com/saeid-khaleghi/xcloner/releases/
 
 ### View
 
-![xCloner Usage](https://github.com/Saeid-Khaleghi/xcloner/blob/master/img/xcloner.jpg)
+![xCloner Usage](https://github.com/Saeid-Khaleghi/xcloner/blob/master/img/xcloner.png)

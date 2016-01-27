@@ -3,7 +3,7 @@
 xCloner is a jQuery plugin help you to add key-value pairs to your bootstrap projects dynamically.
 
 - jQuery support: 1.11+
-- Bootstrap support:3+
+- Bootstrap support: 3
 
 For **documentation**, usage, and examples, see:
 http://parstarnavard.ir/xcloner/en

@@ -1,4 +1,4 @@
-# 
+# xCloner
 
 xCloner is a jQuery plugin help you to add key-value pairs to you bootstrap project dynamically.
 
@@ -17,4 +17,4 @@ https://github.com/saeid-khaleghi/xcloner/releases/
 
 ### View
 
-![xCloner Usage](https://github.com/Saeid-Khaleghi/xcloner/blob/master/img/xcloner.png)
+![xCloner usage](https://github.com/Saeid-Khaleghi/xcloner/blob/master/img/xcloner.png)

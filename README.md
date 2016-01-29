@@ -13,7 +13,7 @@ Include files:
 <link rel="stylesheet" href="/path/to/bootstrap.min.css" type="text/css"/>
 
 <script src="/path/to/jquery.js"></script><!-- jQuery is required -->
-<script src="/path/to/bootstrap.min.js"></script><!-- Bootstrap 3 is required -->
+<script src="/path/to/bootstrap.min.js"></script>
 <script src="/path/to/xcloner.js"></script>
 ```
 

@@ -19,6 +19,34 @@ Include files:
 
 ### Usage
 
+HTML:
+```html
+<div class="col-sm-4">
+	<div class="input-group xcloner" id="my_cloner">
+		<div class="input-group-btn">
+			<button aria-expanded="false" aria-haspopup="true" data-toggle="dropdown"
+					class="btn btn-default dropdown-toggle" type="button">
+				<span class="selected-choice"></span>
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><a data-value="1" href="#">Weight</a></li>
+				<li><a data-value="2" href="#">Height</a></li>
+				<li><a data-value="3" href="#">Color</a></li>
+				<li><a data-value="4" href="#">Dimention</a></li>
+			</ul>
+		</div>
+		<input type="text" class="form-control text-center main-input" value="" name="field_"/>
+		<span class="input-group-btn remove-field hidden">
+			<button type="button" class="btn btn-danger"> -</button>
+		</span>
+		<span class="input-group-btn add-field">
+			<button type="button" class="btn btn-success"> +</button>
+		</span>
+	</div>
+</div>
+```
+
 Initialize with .xcloner() method:
 ```html
 $('.xcloner').xcloner();

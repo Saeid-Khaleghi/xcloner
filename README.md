@@ -6,18 +6,10 @@ xCloner is a jQuery plugin help you to add key-value pairs to your bootstrap pro
 - Bootstrap support: 3
 
 ### Installation
-
-Include files:
-
+CSS:
 ```html
 <link rel="stylesheet" href="/path/to/bootstrap.min.css" type="text/css"/>
-
-<script src="/path/to/jquery.js"></script><!-- jQuery is required -->
-<script src="/path/to/bootstrap.min.js"></script>
-<script src="/path/to/xcloner.js"></script>
 ```
-
-### Usage
 
 HTML:
 ```html
@@ -46,6 +38,15 @@ HTML:
 	</div>
 </div>
 ```
+Javascript:
+Include files
+```html
+<script src="/path/to/jquery.js"></script><!-- jQuery is required -->
+<script src="/path/to/bootstrap.min.js"></script>
+<script src="/path/to/xcloner.js"></script>
+```
+
+### Usage
 
 Initialize with .xcloner() method:
 ```html

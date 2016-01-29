@@ -83,20 +83,3 @@
 
 	};
 })(jQuery);
-
-// To make xcloner do:
-// $('.xcloner').xcloner();
-// --------------------------------
-// To get its value as object
-// var obj = $('.xcloner').xcloner().val();
-// obj is an object of {index_of_field_1 : value_you_choose_1, index_of_field_2 : value_you_choose_2,...}
-// --------------------------------
-// To initialize with some data
-// $('.xcloner').xcloner().add({index_of_field_1 : value_you_choose_1, index_of_field_2 : value_you_choose_2,...});
-// --------------------------------
-// To reset xcloner and delete all notes
-// $('.xcloner').xcloner().reset()
-// --------------------------------
-// Some Options:
-// del_exist_inputs:false
-// This option delete all exist selectable choice
